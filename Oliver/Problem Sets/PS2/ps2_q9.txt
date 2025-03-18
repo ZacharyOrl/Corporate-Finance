@@ -1,0 +1,13 @@
+		(1)	(2)
+VARIABLES	LABELS	inv_w	inv_w
+			
+L.q_tot_w	q_tot_w = L,	0.025***	0.029***
+		(0.000)	(0.000)
+Constant	Constant	0.152***	0.143***
+		(0.001)	(0.001)
+			
+Observations		170,524	168,722
+R-squared		0.126	0.353
+Firm FE		No	Yes
+Standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

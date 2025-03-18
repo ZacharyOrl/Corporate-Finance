@@ -1,0 +1,15 @@
+		(1)
+VARIABLES	LABELS	inv_w
+		
+L.avg_q_w	avg_q_w = L,	0.011***
+		(0.000)
+cash_flow_w	cash_flow_w	-0.004
+		(0.003)
+Constant	Constant	0.172***
+		(0.002)
+		
+Observations		29,778
+R-squared		0.410
+Firm FE		Yes
+Standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		

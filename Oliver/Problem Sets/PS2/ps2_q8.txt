@@ -1,0 +1,13 @@
+	(1)	(2)
+VARIABLES	inv_w	inv_w
+		
+l_avg_q_w	-0.008***	-0.004***
+	(0.001)	(0.000)
+cash_flow_w		-0.056***
+		(0.003)
+Constant	0.231***	0.207***
+	(0.004)	(0.001)
+		
+Observations	166,219	164,540
+Standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		

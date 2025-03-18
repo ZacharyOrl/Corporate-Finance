@@ -1,0 +1,15 @@
+Notes on Erickson and Whited
+
+Compustat data 1967 - 2008
+
+Investment = Compustat item CAPX
+Cash Flow = IB + DPR
+Tobin's Q = (DLTT + DLC + PRCC_F*CSHO - AC)/PPEGT
+
+Investment and Cashflow are "deflated by AT. 
+
+Market-Book Ratio = TA + PRCC_F*CSHO - CEQ - TXDB 
+
+Our definition: 
+
+Investment = CAPX/Lag(PPEGT

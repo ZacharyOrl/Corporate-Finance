@@ -1,0 +1,17 @@
+Uncertainty Investment and Managerial Incentives: 
+
+By Brent Glover and Oliver Levine (2015) 
+
+Managerial Incentives, shaped by compensation contracts, help to explain the empirical relationship between uncertainty and investment. They propose a model where a manager is compensated with an equity based contract and makes decisions for a firm that faces time-varying volatility. 
+
+Can we see think of the optimal policy of the firm in terms of a mechanism-design problem that depends on the nature of the distribution of the uncertainty shocks? Could this penalty for the agent if they adjust their investment discretionarily micro-found adjustment costs? 
+
+Perhaps professional executives are more able to be punished by boards and this threat means that it is easier to enforce investment alignment. 
+
+Difference in the Guilluime case,the private information was a theta, here it is the distribution theta is drawn from. Does this matter?
+
+Most shocks to uncertainty also move the expected productivity lower no? So how do you disentangle the impact? 
+
+If σ is small, we can use a first-order Taylor expansion eσ≈1+σeσ≈1+σ, making it approximately linear in σσ
+
+Log-Linearity probably won't work for the volatility states because the value function will non-linearly depend on them. But can I make things linear using the stochastic discount factor? Perhaps that the SDF has a form with an exponent? 
