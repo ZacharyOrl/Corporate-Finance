@@ -1,1 +1,1 @@
-# This records my problem sets and presentation slides for the Spring 2025 graduate corporate finance class  # taught by Professors Oliver Levine and Dean Corbae  # at the University of Wisconsin - Madison.  
+# This records my problem sets and presentation slides for the Spring 2025 graduate corporate finance class taught by Professors Oliver Levine and Dean Corbae at the University of Wisconsin - Madison.  
