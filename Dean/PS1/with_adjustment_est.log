@@ -1,0 +1,39 @@
+Starting Dynare (version 6.3).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ... 
+Found 7 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+4 block(s) found: 
+  3 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 3 equation(s) 
+                                 and 3 feedback variable(s). 
+Computing dynamic model derivatives (order 2). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+3 block(s) found: 
+  2 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 5 equation(s) 
+                                 and 5 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+dynare_solve: starting value results in nonfinite/NaN value. Randomize initial guess...
+Initial value of the log posterior (or likelihood): -29166930.4856
+
+==========================================================
+   Change in the posterior covariance matrix = 0.99995.
+   Change in the posterior mean = 0.78952.
+   Current mode = -2008.1804
+   Mode improvement = 29168938.666
+   New value of jscale = 0.00055566
+==========================================================
+
+==========================================================
+   Change in the posterior covariance matrix = 0.012509.
+   Change in the posterior mean = 0.73514.
+   Current mode = -2048.0968
+   Mode improvement = 39.9164
+   New value of jscale = 0.025652
+==========================================================

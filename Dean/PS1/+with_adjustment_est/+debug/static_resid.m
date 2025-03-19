@@ -1,0 +1,24 @@
+function [lhs, rhs] = static_resid(y, x, params)
+T = NaN(5, 1);
+lhs = NaN(7, 1);
+rhs = NaN(7, 1);
+T(1) = y(1)^(params(1)-1);
+T(2) = params(1)*y(4)*T(1)+y(2)*(1-params(3))-(y(3)-params(3)*y(1))*params(6)*params(3)*1/y(1);
+T(3) = y(1)^2;
+T(4) = (y(3)-params(3)*y(1))^2;
+T(5) = y(1)^params(1);
+lhs(1) = y(2);
+rhs(1) = 1+params(6)*(y(3)-params(3)*y(1))/y(1);
+lhs(2) = y(2);
+rhs(2) = y(5)*T(2)-2*params(6)*1/T(3)*T(4);
+lhs(3) = y(3);
+rhs(3) = y(1)+y(1)*(params(3)-1);
+lhs(4) = y(6);
+rhs(4) = y(4)*T(5)-y(3)-params(6)*T(4)/(2*y(1));
+lhs(5) = y(4);
+rhs(5) = y(4)*params(4)+1-params(4)+x(1);
+lhs(6) = y(5);
+rhs(6) = 1/(1+params(2));
+lhs(7) = y(7);
+rhs(7) = y(2)+x(2);
+end
